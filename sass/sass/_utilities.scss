@@ -1,0 +1,15 @@
+$spaces: (1, 2, 3, 4, 5);
+@each $space in $spaces {
+    .mt-#{$space}{
+        margin-top: #{$space}rem;
+    }
+    .mb-#{$space}{
+        margin-bottom: #{$space}rem;
+    }
+    .pt-#{$space}{
+        padding-top: #{$space}rem;
+    }
+    .pb-#{$space}{
+        padding-bottom: #{$space}rem;
+    }
+}

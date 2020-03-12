@@ -1,0 +1,26 @@
+// declare kom oy call jarern dg
+%btn{
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    border-radius: 5px;
+    color: #fff;
+
+}
+.btn-primary{
+    @extend %btn;
+    background: $primary-color;
+}
+.btn-warning{
+    @extend %btn;
+    background: $warning-color;
+}
+.btn-info{
+    @extend %btn;
+    background: $info-color;
+}
+.btn-success{
+    @extend %btn;
+    background: $success-color;
+}

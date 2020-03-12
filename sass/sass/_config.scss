@@ -1,0 +1,8 @@
+@function setColor($color) {
+    // if ponlerr plerr klang vea ng brea tv chea black 
+    @if(lightness($color) > 70) {
+        @return #333;
+    }@else {
+        @return  #fff;
+    }
+}

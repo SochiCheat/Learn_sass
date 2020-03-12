@@ -1,0 +1,23 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    background: $primary-color;
+    ul{
+        display: flex;
+        margin:0;
+        list-style: none;
+        background: $primary-color;
+        li{
+            padding: 20px;
+            a{
+                text-decoration: none;
+                color: setColor($primary-color);
+                text-transform: uppercase;
+            }
+            &:hover{
+                background: $primary-color;
+            }
+        }
+    
+    }
+}
